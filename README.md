@@ -15,7 +15,7 @@ First thing to do is to create a public-private key pair with command `ssh-keyge
 <img src="https://github.com/user-attachments/assets/b191b7b8-8f4c-42db-8fca-7d8cbbeb997f">
 </p>
 
-Once file with your public key is created you need to transfer this file to your 2nd machine with this command: `sudo ssh-copy-id -i *your public key file name* *2nd machine username*@*2nd machine IP address*`.
+Once file with your public key is created you need to transfer this file to your 2nd machine with this command: <br>`sudo ssh-copy-id -i *your public key file name* *2nd machine username*@*2nd machine IP address*`.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1a2a5a45-cdf4-4465-a138-17635d5624e4">
