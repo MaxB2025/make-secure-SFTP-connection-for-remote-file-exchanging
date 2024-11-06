@@ -1,4 +1,4 @@
-# make secure SSH connection for remote file exchanging
+# make secure SFTP connection for remote file exchanging
 
 Making SSH connection between two machines could be very useful as it opens a wide range of possibilities. You can see all files on your PC, can remotly make a new file, edit existing files or download any. 
 This is a guide how to establish a test SSH connection between two Ubuntu virtual machines. 
