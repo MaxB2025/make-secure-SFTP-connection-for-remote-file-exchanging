@@ -45,3 +45,10 @@ Establish an SSH connection first to check if it's working fine, then establish 
 <img src="https://github.com/user-attachments/assets/b9b6d076-d089-4b32-9c3d-56b242fd7086">
 </p>
 
+On a virtual machine to which you had been connected you can ran a command `sudo netstat -anp | grep sshd` and see that your connection is fine.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6d360e19-465a-466c-a278-736f483df316">
+</p>
+
+
