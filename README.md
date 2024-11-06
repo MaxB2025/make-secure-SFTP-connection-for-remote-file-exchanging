@@ -51,7 +51,7 @@ On a virtual machine to which you had been connected you can ran a command `sudo
 <img src="https://github.com/user-attachments/assets/6d360e19-465a-466c-a278-736f483df316">
 </p>
 
-Once connected via SFTP we could easily navigate through remote machine and iteract with files. All your commands that you'll run will be directed and executed on a connected machine. To make your commands execute on a local machine it's required to use "!" or in some cases "l" (letter "L" not pipe) prefix. Use "l" prefix without any space to the next command same is to "!" prefix. You can also type single "!" and all next commands will be related to local machine and for coming back to connected machine need to type `exit` as well as to stop an established connection. To download any file simply run `get *path to the file*`.
+Once connected via SFTP we could easily navigate through remote machine and iteract with files. All your commands that you'll run will be directed and executed on a connected machine. To make your commands execute on a local machine it's required to use "!" or in some cases "*l*" prefix. Use "*l*" prefix without any space to the next command same is to "!" prefix. You can also type single "!" and all next commands will be related to local machine and for coming back to connected machine need to type `exit` as well as to stop an established connection. To download any file simply run `get *path to the file*`.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9bbe7933-2579-48c9-8795-d6bb22757887">
