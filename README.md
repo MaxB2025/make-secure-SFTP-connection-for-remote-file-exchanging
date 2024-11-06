@@ -51,4 +51,8 @@ On a virtual machine to which you had been connected you can ran a command `sudo
 <img src="https://github.com/user-attachments/assets/6d360e19-465a-466c-a278-736f483df316">
 </p>
 
+Once connected we could easily navigate through remote machine and iteract with files. All your commands that you'll run will be directed and executed on a connected machine. To made commands execute on a local machine it's required to use ! or in some cases l prefix.
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9bbe7933-2579-48c9-8795-d6bb22757887">
+</p>
