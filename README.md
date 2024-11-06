@@ -9,7 +9,7 @@ In my case (I'm using VirtualBox 7.0.18) to make 2 virtual machines see each oth
 <img src="https://github.com/user-attachments/assets/485143a7-3503-4c9a-aa9c-7691a04ff552">
 </p>
 
-First thing to do is to create a public-private key pair with command `ssh-keygen` and name your key. This will create a file in your home directory with a name *your key name*.pub which means public key.
+First thing to do is to create a public-private key pair with command `ssh-keygen` and name your key. This will create a file in your home directory with a name `*your key name*.pub` which means public key.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b191b7b8-8f4c-42db-8fca-7d8cbbeb997f">
