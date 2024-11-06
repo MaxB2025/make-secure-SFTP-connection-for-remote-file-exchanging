@@ -21,9 +21,14 @@ Once file with your public key is created you need to transfer this file to your
 <img src="https://github.com/user-attachments/assets/1a2a5a45-cdf4-4465-a138-17635d5624e4">
 </p>
 
-Once SSH public key was transfered it could be found in a file named authorized_keys. Now the content of this file is the same to the file with public key on a 1st machine.
+Once SSH public key was transfered it could be found in a file named authorized_keys. Now the content of this file is the same to the file with a public key on a 1st machine.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1615e380-42ac-4ca8-ba2a-bd8b5de2e17f">
 </p>
 
+To be sure that SSH connection will work fine check for an sshd process with this command: `sudo netstat -anp | grep sshd`. There should an sshd process which sygnals that openssh is listening for incoming connections.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/869f5c26-fd97-4eb6-bfec-6624e463c559">
+</p>
