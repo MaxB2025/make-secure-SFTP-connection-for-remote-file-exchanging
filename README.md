@@ -39,7 +39,7 @@ To be sure that SSH connection will work fine check for an sshd process with thi
 <img src="https://github.com/user-attachments/assets/869f5c26-fd97-4eb6-bfec-6624e463c559">
 </p>
 
-Establish an SSH connection first to check if it's working fine, then establish an SFTP connection to get file fetching possibility. The following commands: `ssh *username*@*IP address*` - SSH, `ssh *username*@*IP address*`
+Establish an SSH connection first to check if it's working fine, then establish an SFTP connection to get file fetching possibility. The following commands: `ssh *username*@*IP address*` - SSH, `sftp *username*@*IP address*` - SFTP.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b9b6d076-d089-4b32-9c3d-56b242fd7086">
