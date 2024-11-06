@@ -9,6 +9,12 @@ In my case (I'm using VirtualBox 7.0.18) to make 2 virtual machines see each oth
 <img src="https://github.com/user-attachments/assets/485143a7-3503-4c9a-aa9c-7691a04ff552">
 </p>
 
+Use `ifconfig` on both machines to record IP addresses. 
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a0149dbf-642c-4797-a923-b54c12a0e40b">
+</p>
+
 First thing to do is to create a public-private key pair with command `ssh-keygen` and name your key. This will create a file in your home directory with a name `*your key name*.pub` which means public key.
 
 <p align="center">
@@ -27,8 +33,15 @@ Once SSH public key was transfered it could be found in a file named authorized_
 <img src="https://github.com/user-attachments/assets/1615e380-42ac-4ca8-ba2a-bd8b5de2e17f">
 </p>
 
-To be sure that SSH connection will work fine check for an sshd process with this command: `sudo netstat -anp | grep sshd`. There should an sshd process which sygnals that openssh is listening for incoming connections.
+To be sure that SSH connection will work fine check for an sshd process with this command: `sudo netstat -anp | grep sshd`. There should be an sshd process which sygnals that openssh is listening for incoming connections.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/869f5c26-fd97-4eb6-bfec-6624e463c559">
 </p>
+
+Establish an SSH connection first to check if it's working fine, then establish an SFTP connection to get file fetching possibility. The following commands: `ssh *username*@*IP address*` - SSH, `ssh *username*@*IP address*`
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b9b6d076-d089-4b32-9c3d-56b242fd7086">
+</p>
+
