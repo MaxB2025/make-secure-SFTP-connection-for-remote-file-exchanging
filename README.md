@@ -56,3 +56,7 @@ Once connected via SFTP we could easily navigate through remote machine and iter
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9bbe7933-2579-48c9-8795-d6bb22757887">
 </p>
+
+## References:
+[How to use SFTP to securely transfer files with a remote server](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
+[SSH file transfer protocol (SFTP)](https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol)
